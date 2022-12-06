@@ -8,6 +8,4 @@ def main(a):
         bool
     """
     # Write your code here
-    return bool(int(math.sqrt(a)) == a)
-print(main(9))
-print(math.sqrt(9))
+    return bool((math.sqrt(a)*int(math.sqrt(a))) == a)
